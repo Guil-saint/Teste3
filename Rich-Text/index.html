@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Project - Rich Text</title>
+    <link rel="stylesheet" href="./assests/styles/styles.css" />
+    <script src="https://use.fontawesome.com/aac5c45839.js"></script>
+    
+  </head>
+  <body>
+    <div class="rich-text-home">
+      <h1 class="title">Parte 1 - Rich Text</h1>
+      <div class="main-area">
+        <div class="ferramentas">
+          <button id="btn-bold"><i class="fa fa-bold"></i></button>
+          <button id="btn-italic"><i class="fa fa-italic"></i></button>
+          <button id="btn-underline"><i class="fa fa-underline"></i></button>
+          <button id="btn-strikethrough"><i class="fa fa-strikethrough"></i></button>
+          <button id="btn-justify-left"><i class="fa fa-align-left"></i></button>
+          <button id="btn-justify-center"><i class="fa fa-align-center"></i></button>
+          <button id="btn-justify-right"><i class="fa fa-align-right"></i></button>
+          <button id="btn-justify-full"><i class="fa fa-align-justify"></i></button>
+          <button id="btn-cut"><i class="fa fa-cut"></i></button>
+          <button id="btn-copy"><i class="fa fa-copy"></i></button>
+          <button id="btn-indent"><i class="fa fa-indent"></i></button>
+          <button id="btn-outdent"><i class="fa fa-dedent"></i></button>
+          <button id="btn-subscript"><i class="fa fa-subscript"></i></button>
+          <button id="btn-superscript"><i class="fa fa-superscript"></i></button>
+          <button id="btn-undo"><i class="fa fa-undo"></i></button>
+          <button id="btn-redo"><i class="fa fa-repeat"></i></button>
+          <button id="btn-ul"><i class="fa fa-list-ul"></i></button>
+          <button id="btn-ol"><i class="fa fa-list-ol"></i></button>
+          <button id="btn-paragraph"><i class="fa fa-paragraph"></i></button>
+          <select class="adjust-border" id="btn-hfs">
+            <option value="H1">H1</option>
+            <option value="H2">H2</option>
+            <option value="H3">H3</option>
+            <option value="H4">H4</option>
+            <option value="H5">H5</option>
+            <option value="H6">H6</option>
+          </select>
+          <button id="btn-hr">HR</button>
+          <button id="btn-create-link"><i class="fa fa-link"></i></button>
+          <button id="btn-unlink"><i class="fa fa-unlink"></i></button>
+          <button id="btn-code"><i class="fa fa-code"></i></button>
+          <button id="btn-edit">Toggle Edit</button>
+          <select class="adjust-border" id="btn-fontf">
+            <option value="Aharoni">Aharoni</option>
+            <option value="Algerian">Algerian</option>
+            <option value="Arial">Arial</option>
+            <option value="Britannic Bold">Britannic Bold</option>
+            <option value="Calibri">Calibri</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Verdana">Verdana</option>
+          </select>
+          <select class="adjust-border" id="btn-fonts">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+          </select>
+          Cor da fonte: <input class="adjust-border" type="color" id="btn-font-color">
+          Cor de fundo: <input class="adjust-border" type="color" id="btn-back-color">
+          <button id="btn-image"><i class="fa fa-file-image-o"></i></button>
+          <button id="btn-all">Selecionar Tudo</button>
+        </div>
+        <iframe class="area-text" name="richTextField"></iframe>
+      </div>
+    </div>
+    
+    <script src="./assests/scripts/assignment.js"></script>
+    <script src="./assests/scripts/vendor.js"></script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+html {
+  font-family: 'Times New Roman';
+  color: black;
+}
+
+.rich-text-home {
+  width: 70%;
+  margin: 5rem;
+}
+
+.title {
+  background: #fa923f;
+  color: white;
+  padding: 1rem;
+}
+
+td {
+  align-items: center;
+}
+
+button {
+  border-radius: 4px;
+  background-color: azure
+}
+
+.adjust-border {
+  border-radius: 4px;
+}
+
+.area-text {
+  width: 99.5%;
+}
+
+.ferramentas {
+  background-color: steelblue;
+  border-radius: 4px;
+}
