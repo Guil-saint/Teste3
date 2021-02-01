@@ -1,0 +1,24 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+h3.page-header {
+    margin: 0px;
+}
+
+h4.bold {
+    font-weight: bold;
+}
+
+p.status {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.maincx {
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
