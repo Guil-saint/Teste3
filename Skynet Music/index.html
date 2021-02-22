@@ -54,9 +54,29 @@
                 <span class="song-info"> --- </span>
               </div>
             </div>
-            <div class="row">
+            <div class="row pt-5">
               <div class="col-12">
-                solta o som DJ!
+                <div class="volume">
+                  <i class="fa fa-volume-up" aria-hidden="true" id="volume-icon"></i>
+                  <input type="range" id="volume" min="0" max="100" value="50">
+                  <span class="volume-show">50</span>
+                </div>
+              </div>
+            </div>
+            <div class="row pt-4">
+              <div class="col-12">
+                <div class="duration">
+                  <span class="time-duration"> --- / --- </span>
+                  <input type="range" id="duration-slider" min="0" max="100" value="0">
+                </div>
+              </div>
+            </div>
+            <div class="row pt-4">
+              <div class="col-12">
+                <div class="otherFunctions">
+                  <button type="button" id="btn-random" class="btn btn-primary"><i class="fa fa-random" aria-hidden="true"></i></button>
+                  <button type="button" id="btn-repeat" class="btn btn-primary"><i class="fa fa-refresh" aria-hidden="true"></i></button>
+                </div>
               </div>
             </div>
           </div>
@@ -66,7 +86,7 @@
     <section id="list-A">
       <button type="button" id="btn-allMusic" class="btn btn-primary disabled">Todas as musicas</button>
       <button type="button" id="btn-myMusic" class="btn btn-primary">Minha lista</button>
-      <h2>Titulo</h2>
+      <h2 id="infoRandom">Titulo</h2>
       <h3>
         <ul id="lista-musica"></ul>
       </h3>
